@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cheating form </title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        .pi{
+            width: 190px;
+        }
+        .red{
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form>
+                <label for="name"> Your Name:
+                        <input id="name" type="text" placeholder="your name">
+                </label>
+                <label for="email"> Your Email:
+                    <input type="Email" name="" id="email" placeholder="Your Email">
+                </label>
+                <label for="phone"> Your Phone
+                    <input type="text" id="phone" placeholder="Your Phone">
+                </label>
+                <fieldset class="pi"> 
+                    <legend>pick on something</legend>
+                    <label for="mango">
+                        <input type="radio" name="Ban" id="mango">Mango
+                    </label>
+                    <label for="Banana">
+                            <input type="radio" name="Ban" id="banana"> Banana
+                    </label>
+                    <label for="Watermelon">
+                        <input type="radio" name="Ban" id="Watermelon"> Watermelon
+                    </label>
+                </fieldset>
+                <fieldset class="red">
+                    <legend>Pick on more something</legend>
+                    <label for="Fish">  
+                        <input type="checkbox" name="Fish" id="Fish fry"> Fish
+                    </label>
+                    <label for="Fish waste">
+                        <input type="checkbox" name="Potato waste" id="waste"> Potato
+                    </label>
+                    <label for="chili">
+                        <input type="checkbox" name="chili" id="Chili"> Chili
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name=" Read and follow" id="" cols="10" rows="5"></textarea>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
