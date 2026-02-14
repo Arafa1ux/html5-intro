@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cheating form </title>
     <style>
-        label{
+        label {
             display: block;
             margin-bottom: 10px;
         }
-        .pi{
+
+        .pi {
             width: 190px;
         }
-        .red{
+
+        .red {
             border-radius: 4px;
         }
     </style>
+    <link rel="stylesheet" href="Styles/nav.css">
 </head>
 <body>
     <header>
-
+        <nav>
+            <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section>
             <h2>Please fill up the form</h2>
             <form>
                 <label for="name"> Your Name:
-                        <input id="name" type="text" placeholder="your name">
+                    <input id="name" type="text" placeholder="your name">
                 </label>
                 <label for="email"> Your Email:
                     <input type="Email" name="" id="email" placeholder="Your Email">
@@ -34,13 +45,13 @@
                 <label for="phone"> Your Phone
                     <input type="text" id="phone" placeholder="Your Phone">
                 </label>
-                <fieldset class="pi"> 
+                <fieldset class="pi">
                     <legend>pick on something</legend>
                     <label for="mango">
                         <input type="radio" name="Ban" id="mango">Mango
                     </label>
                     <label for="Banana">
-                            <input type="radio" name="Ban" id="banana"> Banana
+                        <input type="radio" name="Ban" id="banana"> Banana
                     </label>
                     <label for="Watermelon">
                         <input type="radio" name="Ban" id="Watermelon"> Watermelon
@@ -48,7 +59,7 @@
                 </fieldset>
                 <fieldset class="red">
                     <legend>Pick on more something</legend>
-                    <label for="Fish">  
+                    <label for="Fish">
                         <input type="checkbox" name="Fish" id="Fish fry"> Fish
                     </label>
                     <label for="Fish waste">
@@ -71,4 +82,5 @@
 
     </footer>
 </body>
+
 </html>
